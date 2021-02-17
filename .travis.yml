@@ -16,8 +16,8 @@ arch:
 language: node_js
 
 node_js: 
-  - node
-  - lts*
+  - "node"
+  - "lts/*"
   
 script:
   - npm install jwt
